@@ -1,0 +1,347 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 10px 45px;
+}
+
+button.nav-btn-1 {
+    font-size: 16px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 8px 20px;
+    margin: 0 15px;
+}
+
+button.nav-btn-2 {
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 8px 20px;
+}
+
+a.nav-link {
+    color: black;
+}
+
+.discover {
+    background-image: url(image/Night\ view\ 2-min.webp);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.discover-content {
+    width: 60%;
+}
+
+.discover-content h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.discover-content p {
+    color: white;
+    font-size: 22px;
+}
+
+button.discover-learn {
+    border: 1px solid white;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 10px 15px;
+}
+
+button.discover-sign {
+    border: 1px solid white;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 10px 15px;
+    color: white;
+    background: unset;
+}
+
+.dreams{
+    padding: 100px 60px;
+}
+
+.dreams-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dreams-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+section.dreams-image {
+    width: 50%;
+    padding: 0 30px;
+}
+
+.dreams-image img{
+    width: 100%;
+}
+
+section.dreams-text{
+    width: 50%;
+}
+
+.innovate{
+    padding: 70px 50px;
+}
+
+.innovate-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.innovate-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.innovate-display{
+    display: flex;
+}
+
+.thumbnails.big-one {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.thumbnails {
+    width: 25%;
+    border: 1px solid rgb(64, 64, 64);
+    margin: 0 13px;
+}
+
+.thumbnails h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+section.thum-content-1 {
+    width: 50%;
+    padding: 25px;
+}
+
+button.thum-btn {
+    border: none;
+    background: unset;
+}
+
+section.thum-content {
+    padding: 20px;
+}
+
+section.thum-image-1 {
+    width: 50%;
+}
+
+.thum-image-1 img {
+    width: 100%;
+    height: 515px;
+}
+
+.thum-image img{
+    width: 100%;
+    height: 236px;
+}
+
+.connect {
+    padding: 90px 65px;
+}
+
+.connect-main {
+    display: flex;
+    margin: 50px 0;
+}
+
+.connect-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.connet-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.connet-map {
+    width: 100%;
+}
+
+.connetc-textbox a{
+    text-decoration: none;
+    color: black;
+}
+
+section.connetc-textbox {
+    padding: 0 20px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.connect-border{
+    border-left: 2px solid black;
+}
+
+.gallary {
+    padding: 50px;
+}
+
+.gallary-heading {
+    text-align: center;
+}
+
+.gallary-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gallary-img {
+    padding: 60px;
+}
+
+.gallary-img img{
+    width: 100%;
+    height: 700px;
+}
+
+.faq{
+    padding: 40px 200px;
+}
+
+.faq-heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.faq-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+div#accordionExample {
+    --bs-accordion-inner-border-radius: unset !important;
+    --bs-accordion-border-width: unset; 
+    --bs-accordion-border-radius: unset;
+    --bs-accordion-active-color: unset; 
+    --bs-accordion-active-bg: unset;
+}
+
+.accordion-item {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+}
+
+.accordion-body{
+    padding: 20px 0 !important;
+}
+
+button.accordion-button {
+    padding: 20px 0 !important;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-left-radius: unset !important;
+}
+
+.accordion-button strong{
+    font-size: 20px;
+}
+
+.still-question {
+    text-align: center;
+    padding: 80px 0 20px 0;
+}
+
+.still-question h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+button.contact-btn {
+    padding: 10px 20px;
+    background-color: unset;
+    border: 1px solid;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.space {
+    display: flex;
+    padding: 60px 0 40px 0;
+    justify-content: space-between;
+    margin: 0 100px;
+    border-bottom: 1px solid;
+}
+
+.space-content {
+    width: 50%;
+}
+
+.space-content h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+
+button.learn {
+    font-size: 20px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 15px;
+}
+
+button.space-sign {
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+}
+
+.footer-start {
+    padding: 60px 100px 0 100px;
+}
+
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.footer-right i{
+    font-size: 28px;
+    margin: 8px;
+}
